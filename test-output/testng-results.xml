@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="530" started-at="2019-04-21T15:27:30Z" finished-at="2019-04-21T15:27:31Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC1.getCatSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getCatSound" class="com.fp.tests.TC1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC1.getCowSound()[pri:1, instance:com.fp.tests.TC1@7ff2a664]" name="getCowSound" class="com.fp.tests.TC1"/>
+        <method signature="TC1.getDogSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getDogSound" class="com.fp.tests.TC1"/>
+        <method signature="TC2.getDonkeySound()[pri:0, instance:com.fp.tests.TC2@6a472554]" name="getDonkeySound" class="com.fp.tests.TC2"/>
+      </group> <!-- smoke -->
+      <group name="animal">
+        <method signature="TC1.getCatSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getCatSound" class="com.fp.tests.TC1"/>
+        <method signature="TC1.getCowSound()[pri:1, instance:com.fp.tests.TC1@7ff2a664]" name="getCowSound" class="com.fp.tests.TC1"/>
+        <method signature="TC1.getDogSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getDogSound" class="com.fp.tests.TC1"/>
+        <method signature="TC2.getDonkeySound()[pri:0, instance:com.fp.tests.TC2@6a472554]" name="getDonkeySound" class="com.fp.tests.TC2"/>
+      </group> <!-- animal -->
+    </groups>
+    <test name="Test" duration-ms="530" started-at="2019-04-21T15:27:30Z" finished-at="2019-04-21T15:27:31Z">
+      <class name="com.fp.tests.TC1">
+        <test-method status="PASS" signature="getCatSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getCatSound" duration-ms="19" started-at="2019-04-21T15:27:30Z" finished-at="2019-04-21T15:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCatSound -->
+        <test-method status="PASS" signature="getDogSound()[pri:0, instance:com.fp.tests.TC1@7ff2a664]" name="getDogSound" duration-ms="3" started-at="2019-04-21T15:27:31Z" finished-at="2019-04-21T15:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDogSound -->
+        <test-method status="PASS" signature="getCowSound()[pri:1, instance:com.fp.tests.TC1@7ff2a664]" name="getCowSound" duration-ms="2" started-at="2019-04-21T15:27:31Z" finished-at="2019-04-21T15:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCowSound -->
+      </class> <!-- com.fp.tests.TC1 -->
+      <class name="com.fp.tests.TC2">
+        <test-method status="PASS" signature="getDonkeySound()[pri:0, instance:com.fp.tests.TC2@6a472554]" name="getDonkeySound" duration-ms="18" started-at="2019-04-21T15:27:30Z" finished-at="2019-04-21T15:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDonkeySound -->
+      </class> <!-- com.fp.tests.TC2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
