@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fp.tests.TC_Data">
+      <class name="com.dunzon.tests.Dunzon_OthersFlow">
         <methods>
-          <include name="login"/>
+          <include name="setup"/>
+          <include name="runOF"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.fp.tests.TC_Data -->
+      </class> <!-- com.dunzon.tests.Dunzon_OthersFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

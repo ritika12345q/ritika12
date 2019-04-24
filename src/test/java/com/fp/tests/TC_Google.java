@@ -1,5 +1,8 @@
 package com.fp.tests;
 
+import java.util.Iterator;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -15,10 +18,16 @@ public class TC_Google extends BaseClass{
 	@Test
 	public void login() {
 	WebElement searchBox = driver.findElement(By.name("q"));
-	searchBox.sendKeys("software testing help");
+	searchBox.sendKeys("way2automation");
 	searchBox.sendKeys(Keys.ENTER);
-	 String a = Keys.chord(Keys.CONTROL,Keys.RETURN);
-	 driver.findElement(By.partialLinkText("Software Testing Help - A Must Visit Software Testing Portal")).click();
+	 driver.findElement(By.partialLinkText("Way2Automation")).click();
+	 List<WebElement> tags =  driver.findElements(By.tagName("a"));
+	 Iterator<WebElement> itr = tags.iterator();
+	
+	 while(itr.hasNext()) {
+		 System.out.println(itr.next().getText().trim());
+	 }
+	 
 	
 		//Assert.assertEquals(true, false);
 		
